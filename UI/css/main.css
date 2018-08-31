@@ -36,12 +36,16 @@ input[type=submit]:hover {
 }
 
 body {
-    background-image: url("../images/background/processed-foods.jpg");
-    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.add-backgroung-image {
+    background-image: url("../images/background/processed-foods.jpg");
+    background-repeat: no-repeat;
     background-size: 100% 100vh;
+
 }
 
 .glad-join {
