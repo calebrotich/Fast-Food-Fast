@@ -102,3 +102,9 @@ body {
 .new-order {
     text-align: center;
 }
+
+.history {
+    width: 60vw;
+    margin: auto;
+    margin-top: 50px;
+}
