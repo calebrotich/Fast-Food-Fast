@@ -62,7 +62,7 @@ input[type=submit]:hover {
     }
 }
 
-#signup-body {
+body {
     background-image: url("../images/background/processed-foods.jpg");
     background-repeat: no-repeat;
     display: flex;
