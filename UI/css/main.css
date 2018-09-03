@@ -143,3 +143,30 @@ button.account {
     float: right;
     margin: 20px;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    max-width: 25vh;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2
+}
+
+.history-image {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.table-holder {
+    width: 90vw;
+    margin: auto;
+}
