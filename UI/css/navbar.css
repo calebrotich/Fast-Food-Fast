@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px 0 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    margin-top: 7px;
+    z-index: 1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #4CAF50;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+li a:hover:not(.active) {
+    border-bottom: 2px solid #4CAF50;
+}
+
+.active {
+    border-bottom: 2px solid #4CAF50;
+}
+
+.right {
+    float: right;
+}
+
+.row {
+    margin-top: 40px;
+}
+
+.organization-name a {
+    font-size: 21px;
+}
